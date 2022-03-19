@@ -1,0 +1,19 @@
+class Box
+{
+    constructor(x,y,w,h)//200,300,100,50
+    {
+        //mybox5.x=200;
+        //mybox5.y=300;
+        //mybox5.w=100;
+        //mybox5.h=50;
+        this.x=x;
+        this.y=y;
+        this.w=w;
+        this.h=h;
+    }
+    show()
+    {
+        rect(this.x,this.y,this.w,this.h);
+        //rect(200,300,100,50);
+    }
+}
